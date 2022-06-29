@@ -2,7 +2,7 @@
 /**
  * main - funct does this
  *
- * return - a Zer0
+ * Return: - a Zer0
  */
 int main(void)
 {
