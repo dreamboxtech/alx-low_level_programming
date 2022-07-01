@@ -13,11 +13,11 @@ int main(void)
 	{
 		if (x == 'e')
 		{
-			x = '';
+			x = '\0';
 		}
 		else if (x == 'q')
 		{
-			x = '';
+			x = '\0';
 		}
 		putchar(x);
 	}
