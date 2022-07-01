@@ -8,12 +8,6 @@
 
 int main(void)
 {
-	int x;
-
-	for (x = 0; x <= 9; x++)
-	{
-		printf("%d", log10(x));
-	}
-	putchar('\n');
+	printf("0123456789\n");
 	return (0);
 }
