@@ -2,7 +2,7 @@
 /**
  * jack_bauer - main funtion
  *
- * 
+ *
  * Return: nothing
  */
 
