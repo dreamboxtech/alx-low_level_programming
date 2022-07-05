@@ -2,14 +2,14 @@
 /**
  * times_table - doing things
  *
- * 
+ *
  * Return: int
  */
 
 void times_table(void)
 {
 	int i, j, n;
-	
+
 	for (i = 0; i <= 9; i++)
 	{
 		for (j = 0; j <= 9; j++)
