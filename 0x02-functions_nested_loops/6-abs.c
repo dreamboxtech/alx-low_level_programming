@@ -3,7 +3,7 @@
 /**
  * _abs - doing things
  *
- * 
+ * @b: Input parametre
  * Return: int
  */
 
