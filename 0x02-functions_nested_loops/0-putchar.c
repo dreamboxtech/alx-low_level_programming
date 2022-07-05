@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <unistd.h>
+#include <main.h>
 /**
  * main - does som main tasks
  * Return: Returns main's
@@ -11,7 +12,7 @@ int main(void)
 
 	for (i = 0; i < 9; i++)
 	{
-		putchar(st[i])
+		putchar(st[i]);
 	}
 	return (0);
-{
+}
