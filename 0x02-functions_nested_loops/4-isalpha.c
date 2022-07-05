@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - doing things
+ * _isalpha - doing things
  *
  * @c: Input test parameter
  * Return: int
