@@ -9,9 +9,9 @@
 int main(void)
 {
 	unsigned long c, i, j, k;
-	
+
 	i = 0;
-	
+
 	j = 1;
 
 	for (c = 0; c < 50; c++)
