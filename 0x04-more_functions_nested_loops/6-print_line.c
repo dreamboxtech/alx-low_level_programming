@@ -8,15 +8,17 @@
 
 void print_line(int n)
 {
+	int i;
+
 	if (n <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
-		for (n = 1; n <= n; n++)
+		for (i = 0; i <= n; i++)
 		{
-			_putchar('-');
+			_putchar('_');
 		}
 		_putchar('\n');
 	}
