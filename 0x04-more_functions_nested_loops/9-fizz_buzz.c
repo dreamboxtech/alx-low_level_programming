@@ -2,7 +2,7 @@
 
 /**
  * main - Does the function of checking
- * Return: void
+ * Return: Will return a 0
  */
 
 int  main(void)
@@ -19,7 +19,7 @@ int  main(void)
 		{
 			printf("Buzz ");
 		}
-		else if (i % 3 == 0 && i % 5 == 0)
+		else if ((i % 3 == 0) && (i % 5 == 0))
 		{
 			printf("FizzBuzz ");
 		}
@@ -28,5 +28,6 @@ int  main(void)
 			printf("%d ", i);
 		}	
 	}
+	printf("\n");
 	return (0);
 }
