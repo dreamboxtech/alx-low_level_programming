@@ -3,7 +3,7 @@
 
 /**
  * _isupper - Does the function of checking
- * @c: variable
+ * @c: variable to be tested
  * Return: 1 or 0
  */
 
