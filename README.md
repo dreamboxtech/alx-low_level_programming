@@ -1,2 +1,1 @@
-# alx-low_level_programming
-C with Betty Approach
+Working with Pointers Arrays asn Strings
