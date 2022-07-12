@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-/**i
+/**
  * print_array - does main task
  * @a: is 1
  * @b: is value 2
