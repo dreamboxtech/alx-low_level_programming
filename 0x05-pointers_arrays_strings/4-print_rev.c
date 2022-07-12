@@ -9,7 +9,7 @@
 void print_rev(char *s)
 {
 	int i;
-	
+
 	int c = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
@@ -17,9 +17,8 @@ void print_rev(char *s)
 		c++;
 	}
 
-	while (c)
-	{
-		 _putchar(s[--c]);
-	}
+	do {
+		_putchar(s[--c]);
+	}while (c)
 	_putchar('\n');
 }
