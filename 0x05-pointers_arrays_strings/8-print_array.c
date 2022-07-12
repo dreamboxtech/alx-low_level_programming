@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-/**
+/**i
  * print_array - does main task
  * @a: is 1
  * @b: is value 2
@@ -12,7 +12,8 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	for (i = 0; i < n; i++)
+	i = 0;
+	while (i < n)
 	{
 		if (i != n - 1)
 		{
@@ -22,5 +23,7 @@ void print_array(int *a, int n)
 		{
 			printf("%d", a[i]);
 		}
+		i++;
 	}
+	putchar('\n');
 }
