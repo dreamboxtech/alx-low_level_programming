@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - does main task
+ * reset_to_98 - does main task
  * @n: is a pointer
  * Return: returns as 0
  */
