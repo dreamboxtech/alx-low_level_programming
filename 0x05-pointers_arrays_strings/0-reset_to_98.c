@@ -6,8 +6,7 @@
  * Return: returns as 0
  */
 
-int main(int *n)
+void reset_to_98(int *n)
 {
 	*n = 98;
-	return (0);
 }
