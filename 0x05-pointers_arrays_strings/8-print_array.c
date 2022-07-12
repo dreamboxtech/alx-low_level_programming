@@ -4,7 +4,7 @@
 /**
  * print_array - does main task
  * @a: is 1
- * @b: is value 2
+ * @n: is value 2
  * Return: returns as 0
  */
 
