@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - does main task
+ * _strcat - does main task
  * @dest: parameter one
  * @src: parameter two
  * Return: Mostly a 0
@@ -19,7 +19,6 @@ char *_strcat(char *dest, char *src)
 	{
 		*dest++ = *src++;
 	}
-	*dest++ = '\0';
+	*dest = '\0';
 	return (comb);
-	
 }
