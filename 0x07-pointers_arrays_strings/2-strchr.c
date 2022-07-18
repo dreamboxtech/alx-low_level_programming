@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * _strchr - a function that copys memory area
- * @s: string
- * @c: char to be found
- * Return: number of bytes
+ * _strchr - a function that locates a character in a string.
+ * @s: an input string to search in
+ * @c: character to locate
+ * Return: returns pointer to c position
  */
 
 char *_strchr(char *s, char c)
@@ -22,5 +22,5 @@ char *_strchr(char *s, char c)
 	{
 		return (s);
 	}
-	return(NULL);
+	return (NULL);
 }
