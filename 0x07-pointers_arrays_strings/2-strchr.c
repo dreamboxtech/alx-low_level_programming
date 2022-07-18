@@ -4,7 +4,7 @@
  * _strchr - a function that copys memory area
  * @s: string
  * @c: char to be found
- * @n: number of bytes
+ * Return: number of bytes
  */
 
 char *_strchr(char *s, char c)
