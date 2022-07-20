@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * void _print_rev_recursion - Our very function
+ * _print_rev_recursion - Our very function
  * @s: The parameter to be supplied
- * Return: ) for the most part
+ * Return: 0 for the most part
  */
 
 void _print_rev_recursion(char *s)
