@@ -44,7 +44,6 @@ char **strtow(char *str)
 	if (n == 1)
 		return (NULL);
 	w = (char **)malloc(n * sizeof(char *));
-
 	if (w == NULL)
 		return (NULL);
 	w[n - 1] = NULL;
@@ -58,7 +57,6 @@ char **strtow(char *str)
 			j++;
 			w[wc] = (char *)malloc(j * sizeof(char));
 			j--;
-
 			if (w[wc] == NULL)
 			{
 				for (k = 0; k < wc; k++)
