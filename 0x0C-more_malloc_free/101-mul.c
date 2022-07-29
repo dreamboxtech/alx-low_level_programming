@@ -5,12 +5,14 @@
  * _print - moves a string one place to the left and prints the string
  * @str: string to move
  * @l: size of string
+ *
  * Return: void
  */
 
 void _print(char *str, int l)
 {
 	int i, j;
+
 	i = j = 0;
 
 	while (i < l)
@@ -32,6 +34,7 @@ void _print(char *str, int l)
  * @num_index: last non NULL index of num
  * @dest: destination of multiplication
  * @dest_index: highest index to start addition
+ *
  * Return: pointer to dest, or NULL on failure
  */
 
@@ -131,6 +134,7 @@ int main(int argc, char *argv[])
 		;
 	ln = l1 + l2 + 1;
 	a = malloc(ln * sizeof(char));
+
 	if (a == NULL)
 	{
 		for (ti = 0; e[ti]; ti++)
@@ -138,6 +142,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	init(a, ln - 1);
+
 	for (ti = l2 - 1, i = 0; ti >= 0; ti--, i++)
 	{
 		t = mul(argv[2][ti], argv[1], l1 - 1, a, (ln - 2) - i);
