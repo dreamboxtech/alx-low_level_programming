@@ -5,15 +5,14 @@
  * _print - moves a string one place to the left and prints the string
  * @str: string to move
  * @l: size of string
- *
  * Return: void
  */
 
 void _print(char *str, int l)
 {
 	int i, j;
-
 	i = j = 0;
+
 	while (i < l)
 	{
 		if (str[i] != '0')
@@ -33,9 +32,7 @@ void _print(char *str, int l)
  * @num_index: last non NULL index of num
  * @dest: destination of multiplication
  * @dest_index: highest index to start addition
- *
  * Return: pointer to dest, or NULL on failure
-
  */
 
 char *mul(char n, char *num, int num_index, char *dest, int dest_index)
