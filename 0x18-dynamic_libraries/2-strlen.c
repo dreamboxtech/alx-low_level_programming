@@ -1,20 +1,6 @@
 #include "main.h"
 
-/**
- * _strlen - calculates the length of a string.
- * @s: pointer to the character array.
- * Return: Length of the string
- */
-
-int _strlen(char *s)
+int _strlen(char *s __attribute__((unused)))
 {
-	int i;
-
-	i = 0;
-	while (*s != '\0')
-	{
-		i++;
-		s++;
-	}
-	return (i);
+    return (0);
 }
